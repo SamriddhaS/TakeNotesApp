@@ -19,10 +19,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private String saveSomething(){
-        return "This is a experimental commit";
-    }
-
     public static void initListner(RecyclerItemTouchListner itemTouch){
 
         mListner = itemTouch ;
