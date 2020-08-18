@@ -1,22 +1,12 @@
-package com.example.mvvm_viewmodel_romm_livedata;
+package com.example.mvvm_viewmodel_romm_livedata.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProvider;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
-import android.app.Activity;
-import android.content.Context;
 import android.os.Bundle;
 
-import com.example.mvvm_viewmodel_romm_livedata.Adaptar.RecyclerViewAdaptar;
-import com.example.mvvm_viewmodel_romm_livedata.Fragments.HomeFragment;
-import com.example.mvvm_viewmodel_romm_livedata.Room.EntityTableNotes;
-import com.example.mvvm_viewmodel_romm_livedata.ViewModel.MyNotesViewModel;
+import com.example.mvvm_viewmodel_romm_livedata.R;
+import com.example.mvvm_viewmodel_romm_livedata.ui.homefragment.HomeFragment;
+import com.example.mvvm_viewmodel_romm_livedata.utils.RecyclerItemTouchListner;
 
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 

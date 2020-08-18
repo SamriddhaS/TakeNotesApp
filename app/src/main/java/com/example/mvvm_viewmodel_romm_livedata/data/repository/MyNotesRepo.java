@@ -1,12 +1,12 @@
-package com.example.mvvm_viewmodel_romm_livedata;
+package com.example.mvvm_viewmodel_romm_livedata.data.repository;
 
 import android.app.Application;
 import android.os.AsyncTask;
 import androidx.lifecycle.LiveData;
 
-import com.example.mvvm_viewmodel_romm_livedata.Room.EntityTableNotes;
-import com.example.mvvm_viewmodel_romm_livedata.Room.MyNotesDao;
-import com.example.mvvm_viewmodel_romm_livedata.Room.MyNotesDatabase;
+import com.example.mvvm_viewmodel_romm_livedata.data.db.EntityTableNotes;
+import com.example.mvvm_viewmodel_romm_livedata.data.db.MyNotesDao;
+import com.example.mvvm_viewmodel_romm_livedata.data.db.MyNotesDatabase;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.example.mvvm_viewmodel_romm_livedata.ViewModel;
+package com.example.mvvm_viewmodel_romm_livedata.ui.homefragment;
 
 import android.app.Application;
 
@@ -6,8 +6,8 @@ import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 
-import com.example.mvvm_viewmodel_romm_livedata.MyNotesRepo;
-import com.example.mvvm_viewmodel_romm_livedata.Room.EntityTableNotes;
+import com.example.mvvm_viewmodel_romm_livedata.data.db.EntityTableNotes;
+import com.example.mvvm_viewmodel_romm_livedata.data.repository.MyNotesRepo;
 
 import java.util.List;
 

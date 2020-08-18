@@ -1,10 +1,10 @@
-package com.example.mvvm_viewmodel_romm_livedata;
+package com.example.mvvm_viewmodel_romm_livedata.utils;
 
-import android.view.View;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.mvvm_viewmodel_romm_livedata.Room.EntityTableNotes;
+import com.example.mvvm_viewmodel_romm_livedata.data.db.EntityTableNotes;
+
 
 public interface RecyclerItemTouchListner {
 

@@ -1,4 +1,4 @@
-package com.example.mvvm_viewmodel_romm_livedata.Adaptar;
+package com.example.mvvm_viewmodel_romm_livedata.utils;
 
 import android.view.View;
 import android.widget.CheckBox;

@@ -1,4 +1,4 @@
-package com.example.mvvm_viewmodel_romm_livedata.Fragments;
+package com.example.mvvm_viewmodel_romm_livedata.ui.homefragment;
 
 
 import android.graphics.Color;
@@ -27,14 +27,17 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.mvvm_viewmodel_romm_livedata.Adaptar.RecyclerViewAdaptar;
-import com.example.mvvm_viewmodel_romm_livedata.MainActivity;
 import com.example.mvvm_viewmodel_romm_livedata.R;
-import com.example.mvvm_viewmodel_romm_livedata.Adaptar.RecyclerItemTouch;
-import com.example.mvvm_viewmodel_romm_livedata.RecyclerItemTouchListner;
-import com.example.mvvm_viewmodel_romm_livedata.Room.EntityTableNotes;
-import com.example.mvvm_viewmodel_romm_livedata.SharedPrefManager;
-import com.example.mvvm_viewmodel_romm_livedata.ViewModel.MyNotesViewModel;
+
+import com.example.mvvm_viewmodel_romm_livedata.data.db.EntityTableNotes;
+import com.example.mvvm_viewmodel_romm_livedata.ui.MainActivity;
+import com.example.mvvm_viewmodel_romm_livedata.ui.addnotesfragment.AddNoteFragment;
+import com.example.mvvm_viewmodel_romm_livedata.utils.RecyclerItemTouch;
+import com.example.mvvm_viewmodel_romm_livedata.utils.RecyclerItemTouchListner;
+
+import com.example.mvvm_viewmodel_romm_livedata.utils.RecyclerViewAdaptar;
+import com.example.mvvm_viewmodel_romm_livedata.utils.SharedPrefManager;
+
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 

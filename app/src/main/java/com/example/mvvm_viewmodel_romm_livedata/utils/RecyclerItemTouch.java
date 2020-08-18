@@ -1,23 +1,13 @@
-package com.example.mvvm_viewmodel_romm_livedata.Adaptar;
+package com.example.mvvm_viewmodel_romm_livedata.utils;
 
-import android.app.Application;
 import android.graphics.Canvas;
-import android.view.ActionMode;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
-import android.widget.AbsListView;
-import android.widget.AdapterView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.mvvm_viewmodel_romm_livedata.Adaptar.RecyclerViewAdaptar;
-import com.example.mvvm_viewmodel_romm_livedata.Adaptar.RecyclerViewHolder;
-import com.example.mvvm_viewmodel_romm_livedata.RecyclerItemTouchListner;
 
 public class RecyclerItemTouch extends ItemTouchHelper.SimpleCallback {
 

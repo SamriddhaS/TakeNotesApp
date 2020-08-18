@@ -1,4 +1,4 @@
-package com.example.mvvm_viewmodel_romm_livedata.Fragments;
+package com.example.mvvm_viewmodel_romm_livedata.ui.addnotesfragment;
 
 
 import android.content.Context;
@@ -28,9 +28,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.mvvm_viewmodel_romm_livedata.R;
-import com.example.mvvm_viewmodel_romm_livedata.Room.EntityTableNotes;
-import com.example.mvvm_viewmodel_romm_livedata.ViewModel.AddNotesViewModel;
-import com.example.mvvm_viewmodel_romm_livedata.ViewModel.MyNotesViewModel;
+import com.example.mvvm_viewmodel_romm_livedata.data.db.EntityTableNotes;
+
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

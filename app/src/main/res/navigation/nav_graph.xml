@@ -6,7 +6,7 @@
     app:startDestination="@id/homeFragment2">
     <fragment
         android:id="@+id/homeFragment2"
-        android:name="com.example.mvvm_viewmodel_romm_livedata.Fragments.HomeFragment"
+        android:name="com.example.mvvm_viewmodel_romm_livedata.ui.homefragment.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -20,7 +20,7 @@
     </fragment>
     <fragment
         android:id="@+id/addNoteFragment"
-        android:name="com.example.mvvm_viewmodel_romm_livedata.Fragments.AddNoteFragment"
+        android:name="com.example.mvvm_viewmodel_romm_livedata.ui.addnotesfragment.AddNoteFragment"
         android:label="fragment_add_note"
         tools:layout="@layout/fragment_add_note"
 

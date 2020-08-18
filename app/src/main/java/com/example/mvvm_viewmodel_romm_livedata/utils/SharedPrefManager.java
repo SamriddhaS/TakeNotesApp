@@ -1,4 +1,4 @@
-package com.example.mvvm_viewmodel_romm_livedata;
+package com.example.mvvm_viewmodel_romm_livedata.utils;
 
 import android.app.Activity;
 import android.content.Context;

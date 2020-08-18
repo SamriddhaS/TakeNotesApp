@@ -1,4 +1,4 @@
-package com.example.mvvm_viewmodel_romm_livedata.Adaptar;
+package com.example.mvvm_viewmodel_romm_livedata.utils;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,10 +8,9 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
-import com.example.mvvm_viewmodel_romm_livedata.Fragments.HomeFragment;
-import com.example.mvvm_viewmodel_romm_livedata.RecyclerItemTouchListner;
-import com.example.mvvm_viewmodel_romm_livedata.Room.EntityTableNotes;
 import com.example.mvvm_viewmodel_romm_livedata.R;
+import com.example.mvvm_viewmodel_romm_livedata.data.db.EntityTableNotes;
+import com.example.mvvm_viewmodel_romm_livedata.ui.homefragment.HomeFragment;
 
 public class RecyclerViewAdaptar extends ListAdapter<EntityTableNotes, RecyclerViewHolder> {
 

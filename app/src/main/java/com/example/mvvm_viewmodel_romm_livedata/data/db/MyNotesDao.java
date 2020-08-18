@@ -1,4 +1,4 @@
-package com.example.mvvm_viewmodel_romm_livedata.Room;
+package com.example.mvvm_viewmodel_romm_livedata.data.db;
 
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
