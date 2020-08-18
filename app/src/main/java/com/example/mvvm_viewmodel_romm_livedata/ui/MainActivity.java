@@ -17,13 +17,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        System.out.println("Experimenting out with 'experimentalBranch'. And making a commit in child branch.");
     }
 
     public static void initListner(RecyclerItemTouchListner itemTouch){
 
         mListner = itemTouch ;
     }
-
 
     @Override
     public void onBackPressed() {
