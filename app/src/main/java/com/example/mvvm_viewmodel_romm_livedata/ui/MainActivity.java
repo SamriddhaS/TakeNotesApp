@@ -18,6 +18,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         System.out.println("Experimenting out with 'experimentalBranch'. And making a commit in child branch.");
+        System.out.println("Experimenting out with 'experimentalBranch'. And making a commit in child branch.");
+        System.out.println("Experimenting out with 'experimentalBranch'. And making a commit in child branch.");
+        System.out.println("Experimenting out with 'experimentalBranch'. And making a commit in child branch.");
+        System.out.println("Experimenting out with 'experimentalBranch'. And making a commit in child branch.");
+        System.out.println("Experimenting out with 'experimentalBranch'. And making a commit in child branch.");
     }
 
     public static void initListner(RecyclerItemTouchListner itemTouch){
