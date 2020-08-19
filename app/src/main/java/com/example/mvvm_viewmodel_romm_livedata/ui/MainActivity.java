@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         System.out.println("Experimenting out with 'experimentalBranch'. And making a commit in child branch.");
         System.out.println("Experimenting out with 'experimentalBranch'. And making a commit in child branch.");
         System.out.println("Experimenting out with 'experimentalBranch'. And making a commit in child branch.");
-        System.out.println("Experimenting out with 'experimentalBranch'. And making a commit in child branch.");
+        System.out.println("And making a commit in child branch.");
     }
 
     public static void initListner(RecyclerItemTouchListner itemTouch){
